@@ -1,0 +1,93 @@
+html,
+body{
+    height: 100%;
+    background-color: #222d32 !important;
+    font-family: "Roboto", sans-serif;
+}
+.container marquee{
+    color: red;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.row img{
+    height: 80vh;
+}
+.row h1{
+    margin-top: 60px;
+    text-align: center;
+    color: darkslateblue;
+}
+.row a{
+    display: inline-block;
+    background-color: green;
+    border-radius: 3rem;   
+    cursor: pointer;
+    color: whitesmoke; 
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row p{
+    color: green;
+    text-align: center;
+}
+.moreinfo h2{
+    color: rgb(16, 167, 212);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.moreinfo a{
+    display: inline-block;
+    background-color: green;
+    border-radius: 3rem;   
+    cursor: pointer;
+    color: whitesmoke; 
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    
+    
+}
+.moreinfo span{
+    color: red;
+}
+
+/* footer css  */
+
+.footer{
+    position: absolute;
+    margin-top: 2px;
+    height: 36vh;
+    color: white;
+    width: 100%;
+    background-image: radial-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    justify-content: space-between;
+    text-align: center;
+}
+.logopart img{
+    height: 10vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.copyright{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.copyright span:hover{
+    text-decoration: underline;
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.social{
+    
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.social h4{
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+}

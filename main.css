@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar-collapse ul li a:hover{
+    
+    font-weight: bolder;
+    
+}
+.navbar-collapse ul li a{
+    
+    border-radius: 10px;
+    margin: 3px;
+    color: cornflowerblue;
+  
+}
+
+.logo{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.logo img{
+    height: 8vh;
+}
+html,
+body{
+   
+    height: 100%;
+    background-color: #222d32 !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    top: 0; left: 0; right: 0;
+    z-index: 0;
+    background-color: var(--light-bg);
+
+}
+
+/* title section css  */
+
+.home{
+    margin-top: 6rem;
+}
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+}
+.home .row .content{
+    flex:1 1 40rem;
+    text-align: center;
+
+}
+.home .row .img{
+    flex:1 1 40rem;
+   
+      
+}
+.home .row .img img{
+    width: 100%;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.home .row .img img:hover{
+    transform: scale(1.1);
+}
+.home .row .content h3{
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+.home .row .content h3 span{
+    color: green;
+}
+.content a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 3rem;   
+    cursor: pointer;
+    color: black; 
+    font-size: 1.1rem;
+    font-family: cursive;
+    
+}
+.content a:hover{
+    background-color: green;
+    color: white;
+}
+
+/* course section css  */
+
+.a1 h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a1 span{
+    color: green;
+    text-decoration: underline;
+}
+.carousel-item img{
+    height: 130vh;
+    
+}
+.carousel-item h1{
+    text-align: center;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.b1 h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline ;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.b1 span{
+    color: green;
+    text-decoration: underline;
+}
+
+/* card section css  */
+
+.card img{
+    border: 1px solid darkcyan;
+    
+}
+.card-body{
+    border: 1px solid darkcyan;
+    background-color: green;
+}
+.card-body h3{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-body a{
+    background-color: darkgreen;
+}
+.card{
+    margin: 50px;
+    
+}
+
+.c1 h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline ;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.c1 span{
+    color: green;
+    text-decoration: underline;
+}
+.row p{
+    color: skyblue ;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer section  */
+
+.footer{
+    position: absolute;
+    margin-top: 2px;
+    height: 36vh;
+    color: white;
+    width: 100%;
+    background-image: radial-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    justify-content: space-between;
+    text-align: center;
+}
+.logopart img{
+    height: 10vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.copyright{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.copyright span:hover{
+    text-decoration: underline;
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.social{
+    
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.social h4{
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+}

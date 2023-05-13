@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Favpak/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Favpak/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Favpak/favicon-16x16.png">
+<link rel="manifest" href="Favpak/site.webmanifest">
+<link rel="mask-icon" href="Favpak/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="container">
+        <div class="card login-form">
+            <div class="card-body">
+              <h1 class="card-title text-center">CONTACT US</h1>
+              <div class="card-text">
+    <form action="success3.html" class="row g-3 m-5 " autocomplete="off">
+        <div class="col-md-6">
+          <label for="inputtext4" class="form-label">NAME:</label>
+          <input type="text" class="form-control" id="inputtext4" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputtext5" class="form-label">E-mail:</label>
+          <input type="text" class="form-control" id="inputtext5" required >
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">ADDRESS:</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="House no,Main Street,Landmark" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">CITY:</label>
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">STATE:</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>MAHARASHTRA</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">PIN-CODE:</label>
+          <input type="text" class="form-control" id="inputZip" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+              By ticking this you accept all our terms and conditions.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" onclick="con()" class="btn btn-primary">SUBMIT</button>
+        </div>
+        
+      </form>
+    </div>
+    </div>
+    </div>
+    </div>
+     
+    
+</body>
+<script>
+  function con(value){
+        
+        let name = document.getElementById('inputtext4').value;
+        let email = document.getElementById('inputtext5').value;
+        let adr = document.getElementById('inputAddress').value;
+        let city = document.getElementById('inputCity').value;
+        let pin = document.getElementById('inputZip').value;
+        
+        
+            if(name.length==0){
+                alert("Name Should not be Empty..!");
+                return false;
+            }
+
+            if(email.length==0){
+                alert("E-mail Id Should not be Empty..!");
+                return false;
+            }
+
+            if(adr.length==0){
+                alert("Address Should not be Empty..!");
+                return false;
+            }
+
+            if(city.length==0){
+                alert("City Should not be Empty..!");
+                return false;
+            }
+
+            if(pin.length==0){
+                alert("Pin Code Should not be Empty..!");
+                return false;
+            }
+
+
+
+  }
+</script>
+</html>

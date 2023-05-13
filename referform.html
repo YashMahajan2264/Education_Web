@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER FORM</title>
+    <link rel="stylesheet" href="onlinebooks.css">
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="Favpak/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favpak/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favpak/favicon-16x16.png">
+  <link rel="manifest" href="Favpak/site.webmanifest">
+  <link rel="mask-icon" href="Favpak/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="global-container">
+        <div class="card login-form">
+          <div class="card-body">
+            <h1 class="card-title text-center">REGISTER</h1>
+            <div class="card-text">
+              <form action="exchangebook.html" autocomplete="off">
+                
+                <div class="form-group">
+                    <label for="exampleInputtext">NAME:</label>
+                    <input type="text" class="form-control form-control-sm" id="exampleInputtext" required>
+                  </div>
+      
+                  <div class="form-group">
+                    <label for="exampleInputtext">DEPARTMENT:</label>
+                    <input type="text" class="form-control form-control-sm" id="exampleInputtext" required>
+                  </div>
+    
+                <div class="form-group">
+                  <label for="exampleInputtext">YEAR:</label>
+                  <input type="text" class="form-control form-control-sm" id="exampleInputtext" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputtext">ROLL NO:</label>
+                    <input type="text" class="form-control form-control-sm" id="exampleInputtext" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputtext">MOBILE NO:</label>
+                    <input type="text" class="form-control form-control-sm" id="exampleInputtext" required pattern="[789][0-9]{9}">
+                  </div>
+
+                <button type="submit" onclick="reg()" class="btn btn-primary btn-block">
+                  Sumbit
+                </button>
+                <button type="reset" class="btn btn-primary btn-block">
+                  Reset
+                </button>
+    
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script>
+    function reg(value){
+          
+          let name = document.getElementById('exampleInputtext').value;
+          let dept = document.getElementById('exampleInputtext').value;
+          let year = document.getElementById('exampleInputtext').value;
+          let rollno = document.getElementById('exampleInputtext').value;
+          
+          
+          
+              if(name.length==0){
+                  alert("Name Should not be Empty..!");
+                  return false;
+              }
+  
+              if(dept.length==0){
+                  alert("Department Should not be Empty..!");
+                  return false;
+              }
+
+              if(year.length==0){
+                  alert("Year Should not be Empty..!");
+                  return false;
+              }
+
+              if(rollno.length==0){
+                  alert("Roll No Should not be Empty..!");
+                  return false;
+              }
+
+              
+  
+  
+    }
+  </script>
+</html>
